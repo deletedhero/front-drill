@@ -9,7 +9,7 @@ function App() {
    const [users,setUsers] = useState([])
 
    useEffect(()=> {
-    axios.get('http://localhost:3000/api/users')
+    axios.get('/api/users')
     .then((response) => {
       setUsers(response.data)
     })
