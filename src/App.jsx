@@ -27,7 +27,7 @@ function App() {
         {/*mapping the array of users */ }
 
         {
-          users.map((users,index)=> {
+          users.map((users,index) => (
 
             <div key={users.id}> 
               <h3>{users.name}</h3>
@@ -37,7 +37,7 @@ function App() {
             </div>
             
 
-          })
+          ))
         }
       </div>
     </>
